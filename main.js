@@ -4,7 +4,7 @@ const salaryInput = document.getElementById("salaryInput").value;
 const rentInput = document.getElementById("rentInput").value;
 const foodInput = document.getElementById("foodInput").value;
 const fuelInput = document.getElementById("fuelInput").value;
-const entertainInput = document.getElementById("entertainInput").value
+const entertainInput = document.getElementById("entertainInput").value;
 
 const result = Number(salaryInput)-Number(rentInput)-Number(foodInput)-Number(fuelInput)-Number(entertainInput);
 const tax = 14/100
